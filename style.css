@@ -1,0 +1,415 @@
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #070707;
+}
+h1, h2, h3, p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block; 
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 0px;
+  color: #f5f5f5;
+  background: #000000;
+  box-shadow: 2px 2px 2px black;
+  margin: 0 auto;
+  border-bottom: 1px solid #f5f5f5;
+}
+.header-menu {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  max-width: 1000px;
+}
+.header-menu a {
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+  
+
+.introducao {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 6fr 8fr;
+  align-items: center;
+  background-image: url(./imagens/16894163-fundo-abstrato-branco-vector-com-listras-fundo-gradiente-branco-abstrato-textura-branca-brilhante-ilustracaoial-vetor.jpg);
+  background-size:co;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+  position: relative;
+}
+.detalhe {
+  display: block;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  opacity: 50%;
+}
+.foto {
+  max-width: 70%;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
+  margin-left:80px;
+}
+
+.conteudo h1{
+  font-size: 64px;
+  text-align: center;
+  color: black;
+}
+.conteudo p {
+  text-align: center;
+  font-size: 24px;
+  
+}
+.conteudo {
+  position: relative;
+}
+.conteudo a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  width: 120px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 600px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.568);
+}
+
+.link-social1{
+   width: 40px;
+   margin-left:70px;
+   opacity: 100%;
+   margin-bottom: 20px;
+  }
+.link-social2 {
+ width: 40px;
+ margin-left: 69px;
+ opacity: 100%;
+}
+.imgs-social {
+  position: absolute;
+  z-index: +1;
+  top: 250px;
+}
+.cv {
+  background:#0227FF ;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 70px;
+  margin-top: 20px;
+  color: white;
+  opacity: 100%;
+}
+.cv p {
+  text-align: center;
+  padding: 20%;
+  font-size: 16px;
+}
+.link-social1:hover {
+  opacity: 20%;
+}
+.link-social2:hover {
+  opacity: 20%;
+}
+.cv:hover {
+  opacity: 20%;;
+}
+
+.projetos {
+  display: grid;
+  grid-template-columns: 6fr 8fr;
+  margin-top: 10px;
+  background-image: url(./imagens/Wallpaper4k-Preto-ColorindoNuvens-6.jpg);
+  background-size:contain;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+  max-width: 1220px;
+  margin: 10px auto;
+}
+.projetos-texto {
+  font-size: 24px;
+  padding: 20px;
+  text-indent: 10px;
+  text-align: left;
+  padding-left: 0px;
+  color: #e0e0e0;
+  
+}
+.projetos-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.projeto-img {
+  width: 150px;
+  margin: auto;
+}
+.card {
+  max-width:200px ;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+.projeto-titulo {
+  text-align: center;
+  padding: 10px;
+  color: #141414;
+}
+.projeto-descricao {
+  text-align: center;
+  padding: 10px;
+  color: #e0e0e0;
+}
+.subtitulop {
+  font-size: 8rem;
+  word-break: break-all;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+  line-height: 1;
+  color: #e2e2e2;
+}
+.botao {
+  padding: 4px 8px;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  border-radius: 4px;
+  color:  #e0e0e0;
+  margin: 10px auto;
+  display: block;
+}
+.sobre {
+  display: grid;
+  grid-template-columns: 8fr 6fr;
+  margin-top: 10px;
+  background-image: url(./imagens/16894163-fundo-abstrato-branco-vector-com-listras-fundo-gradiente-branco-abstrato-textura-branca-brilhante-ilustracaoial-vetor.jpg);
+  padding: 10px;
+  background-size: cover;
+  padding-bottom: 30px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.subtitulo-sobre {
+  font-size: 6rem;
+  word-break: break-all;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  line-height:1;
+  color: #ffffff;
+  text-transform: uppercase;
+
+}
+.sobre-texto {
+  font-size: 23px;
+  padding: 20px;
+  text-indent: 10px;
+  text-align: left;
+  padding-left: 30px;
+  color: #000;
+ 
+}
+.btn-contato {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  padding: 10px 20px;
+  text-align: center;
+  display: block;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.548);
+  box-shadow: 2px 2px 2px black;
+  margin:0 auto;
+}
+
+.habilidades {
+  display: grid;
+  grid-template-columns: 6fr 8fr;
+  margin-top: 10px;
+  background: black;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-shadow: 2px 2px 2px black;
+  max-width: 1220px;
+  margin: 10px auto;
+}
+.habilidades-texto {
+  font-size: 24px;
+  padding: 20px;
+  text-indent: 10px;
+  text-align: left;
+  padding-left: 0px;
+  color: #e0e0e0;
+  
+}
+.habilidades-cards {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.projeto-img {
+  width: 150px;
+  margin: auto;
+}
+.card-habilidades {
+  max-width:200px ;
+  border: 0px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px black;
+}
+.projeto-titulo {
+  text-align: center;
+  padding: 10px;
+  color: #e0e0e0;
+}
+.projeto-descricao {
+  text-align: center;
+  padding: 10px;
+  color: #e0e0e0;
+}
+.subtitulo {
+  font-size: 8rem;
+  word-break: break-all;
+  text-align: left;
+  padding: 10px;
+  margin: auto;
+  line-height: 1;
+  color: #e0e0e0;
+}
+
+.projeto-descricao {
+  max-width: 100px;
+  text-align: left;
+}
+.cards-habilidades{
+  display: flex;
+  width: 150px;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+}
+.subtitulo {
+  text-align: center;
+  padding: 10px;
+  margin:25px;
+}
+
+
+
+footer {
+  background: black;
+  color: white;
+  padding: 40px;
+  margin-top: 20px;
+}
+footer p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container {
+  background-image: url(./imagens/Wallpaper4k-Preto-ColorindoNuvens-6.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.contato-titulo {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+#nome-form {
+  font-size: 24px;
+  display: block;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+#email-form {
+  font-size: 24px;
+  display: block;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 10px;
+    padding: 10px 20px;
+}
+#mensagem-form {
+  font-size: 24px;
+  display: block;
+  border: 1px solid white;
+  margin: 30px;
+  margin-top: 10px;
+    padding: 10px 20px;
+    margin: auto;
+}
+label {
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  margin: 10px;
+}
+.form-contat{
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+.submit {
+  padding: 15px 30px;
+  margin-left: 30px;
+  font-size: 20px;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  border-radius: 4px;
+  color:  #e0e0e0;
+  display: block;
+  margin: 10px auto;
+}
+.redes{
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+.texto-social {
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+}
