@@ -41,7 +41,25 @@ img {
   padding: 10px 20px;
   text-decoration: none;
   color: #f5f5f5;
+  position: relative;
 }
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 4px;
+  transition: 0.5s;
+  position: absolute;
+}
+.header-menu a:hover:after {
+  width: 100%;
+}
+.header-menu a:hover {
+  transition: 0.5s;
+}
+
   
 
 .introducao {
@@ -144,6 +162,10 @@ img {
 .cv:hover {
   opacity: 20%;;
 }
+.botaoSobre:hover{
+  background-image: linear-gradient( #01cee9, #0123e6);
+
+}
 
 .projetos {
   display: grid;
@@ -209,6 +231,10 @@ img {
   margin: 10px auto;
   display: block;
 }
+.botao:hover {
+  background-image: linear-gradient( #0227FF, #0227FF);
+
+}
 .sobre {
   display: grid;
   grid-template-columns: 8fr 6fr;
@@ -257,6 +283,10 @@ img {
   box-shadow: 2px 2px 2px black;
   margin:0 auto;
 }
+.btn-contato:hover {
+    background-image: linear-gradient( #01cee9, #0123e6);
+
+}
 
 .habilidades {
   display: grid;
@@ -289,8 +319,8 @@ img {
   margin: auto;
 }
 .card-habilidades {
-  max-width:200px ;
-  border: 0px solid #e0e0e0;
+  width:200px ;
+  border: px solid #e0e0e0;
   border-radius: 5px;
   box-shadow: 1px 1px 1px black;
 }
@@ -315,7 +345,7 @@ img {
 }
 
 .projeto-descricao {
-  max-width: 100px;
+  width: 200px;
   text-align: left;
 }
 .cards-habilidades{
@@ -412,4 +442,49 @@ label {
   color: white;
   padding: 20px;
   font-size: 24px;
+}
+.js-scroll {
+  opacity: 0;
+  transition: .5s;
+  transform: translate3d(-30px,0,0);
+}
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+.js-cards {
+  opacity: 0;
+  transition: .5s;
+  transform: translate3d(30px, 0,0);
+}
+.js-cards.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+.js-btn-contato {
+  opacity: 0;
+  transition: .5s;
+  transform: translate3d(30px, 0,0);
+}
+.js-btn-contato.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+.js-card-habilidade {
+  opacity: 0;
+  transition: .5s;
+  transform: translate3d(30px, 0,0);
+}
+.js-card-habilidade.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0,0);
+}
+.js-formulario {
+  opacity: 0;
+  transition: .5s;
+  transform: translate3d(-30px, 0,0);
+}
+.js-formulario.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0,0);
 }
