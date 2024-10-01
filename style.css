@@ -160,7 +160,7 @@ img {
   opacity: 20%;
 }
 .cv:hover {
-  opacity: 20%;;
+  opacity: 20%;
 }
 .botaoSobre:hover{
   background-image: linear-gradient( #01cee9, #0123e6);
@@ -187,6 +187,25 @@ img {
   padding-left: 0px;
   color: #e0e0e0;
   
+}
+.projetos-texto::before{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.projetos-texto::after{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-left: 10px;
+  border-radius: 4px;
+
 }
 .projetos-cards {
   display: flex;
@@ -267,6 +286,25 @@ img {
   color: #000;
  
 }
+.sobre-texto::before{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.sobre-texto::after{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-left: 10px;
+  border-radius: 4px;
+
+}
 .btn-contato {
   text-decoration: none;
   color: white;
@@ -307,6 +345,25 @@ img {
   padding-left: 0px;
   color: #e0e0e0;
   
+}
+.habilidades-texto::before{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.habilidades-texto::after{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-left: 10px;
+  border-radius: 4px;
+
 }
 .habilidades-cards {
   display: flex;
@@ -372,6 +429,25 @@ footer {
 footer p {
   text-align: center;
   font-size: 24px;
+}
+.conteudo p::before{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.conteudo p::after{
+  content: "";
+  width: 25px;
+  height: 15px;
+  display: inline-block;
+  background-image: linear-gradient( #00D4F2, #0227FF);
+  margin-left: 10px;
+  border-radius: 4px;
+
 }
 
 .container {
