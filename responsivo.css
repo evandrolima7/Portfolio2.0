@@ -351,6 +351,9 @@
         margin-top: 10px;
       }
       */
+      .projetos.js-scroll {
+        opacity: 1;
+      }
 
 
     @media(max-width: 430px){
