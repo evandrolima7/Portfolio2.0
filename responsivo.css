@@ -353,7 +353,9 @@
       */
       .projetos.js-scroll {
         opacity: 1;
+        transform: translate3d(0,0,0);
       }
+     
 
 
     @media(max-width: 430px){
@@ -390,7 +392,7 @@
              height: 30px;
            }
         .projeto-img{
-            max-width: 100px;
+            max-width: 150px;
         }
         .projetos-cards{
             width: 50px;
