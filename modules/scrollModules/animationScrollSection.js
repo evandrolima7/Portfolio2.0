@@ -1,6 +1,6 @@
 export default function animationScrollSection(){
     const sections = document.querySelectorAll('.js-scroll');
-    const metadeWindow = window.innerHeight * 0.35;
+    const metadeWindow = window.innerHeight * 0.28;
 
     function scrollSection(){
         sections.forEach((section) => {
