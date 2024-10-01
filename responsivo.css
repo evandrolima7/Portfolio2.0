@@ -397,9 +397,15 @@
         .projetos-cards{
             width: 50px;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            margin: 0 auto;
+            grid-template-columns: 1fr;
+           margin: 0 auto;
         }
+        .card {
+            width: 200px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            box-shadow: 1px 1px 1px black;
+          }
         .botao{
             font-size: 12px;
             padding: 5px 10px;
@@ -413,12 +419,12 @@
         .habilidades-cards{
             width: 50px;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             margin: 0 auto;
            }
     }
     .projetos-cards{
-        gap: 5px;
+        gap: 10px;
     }
   }
 
@@ -461,7 +467,7 @@
     .projetos-cards{
         width: 50px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin: 0 auto;
     }
     .botao{
