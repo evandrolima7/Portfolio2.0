@@ -67,11 +67,35 @@
     .projetos-texto{
         font-size: 18px;
     }
+    .projetos-texto::before{
+        width: 20px;
+        height: 10px;
+    }
+    .projetos-texto::after{
+        width: 20px;
+        height: 10px;
+    }
     .sobre-texto{
         font-size: 18px;
     }
+    .sobre-texto::before{
+        width: 20px;
+        height: 10px;
+    }
+    .sobre-texto::after{
+        width: 20px;
+        height: 10px;
+    }
     .habilidades-texto{
         font-size: 18px;
+    }
+    .habilidades-texto::before{
+        width: 20px;
+        height: 10px;
+    }
+    .habilidades-texto::after{
+        width: 20px;
+        height: 10px;
     }
     .contato-titulo{
         font-size: 18px;
@@ -159,9 +183,19 @@
       .header-menu a:hover {
         font-size: 16px;
       }
+      .conteudo p::before{
+        width: 20px;
+        height: 10px;
+        margin-right: 5px;
+    }
+    .conteudo p::after{
+        width: 20px;
+        height: 10px;
+        margin-left: 5px;
+    }
   }
 
-  @media(max-width: 600px){
+  @media(max-width: 640px){
     .header-menu{
         gap:20px;
         padding: 0px;
@@ -270,7 +304,7 @@
     }
   }
 
-  @media(max-width: 520px){
+  @media(max-width: 550px){
     .header-menu{
         gap:10px;
         padding: 0px;
@@ -422,6 +456,39 @@
             grid-template-columns: 1fr;
             margin: 0 auto;
            }
+        .conteudo p::after{
+            width: 20px;
+            height: 8px;
+        }
+        .conteudo p::before{
+            width: 20px;
+            height: 8px;
+        }
+        .projetos-texto::before{
+            width: 20px;
+            height: 8px;
+        }
+        .projetos-texto::after{
+            width: 20px;
+            height: 8px;
+        }
+        .sobre-texto::before{
+            width: 20px;
+            height: 8px;
+        }
+        .sobre-texto::after{
+            width: 20px;
+            height: 8px;
+        }
+        .habilidade-texto::before{
+            width: 20px;
+            height: 8px;
+        }
+        .habilidade-texto::after{
+            width: 20px;
+            height: 8px;
+        }
+
     }
     .projetos-cards{
         gap: 10px;
@@ -495,6 +562,12 @@
    .conteudo a{
     font-size: 14px;
     padding: 5px 10px;
+   }
+   *::after{
+    display: none;
+   }
+   *::before{
+    display: none;
    }
    
    
