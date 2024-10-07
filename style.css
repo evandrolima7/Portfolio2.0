@@ -127,11 +127,13 @@ img {
    margin-left:70px;
    opacity: 100%;
    margin-bottom: 20px;
+   cursor: pointer;
   }
 .link-social2 {
  width: 40px;
  margin-left: 69px;
  opacity: 100%;
+ cursor: pointer;
 }
 .imgs-social {
   position: absolute;
@@ -147,6 +149,7 @@ img {
   margin-top: 20px;
   color: white;
   opacity: 100%;
+  cursor: pointer;
 }
 .cv p {
   text-align: center;
@@ -563,4 +566,73 @@ label {
 .js-formulario.ativo {
   opacity: 1;
   transform: translate3d(0, 0,0);
+}
+
+.modal-container {
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding-top: 25vh;
+  z-index: 2000;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-container.ativo {
+  display: block;
+  animation: show-modal .5s forwards;
+}
+.modal {
+  background-color: white;
+  padding: 40px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 4px;
+  position: relative;
+  border: 20px solid #0227FF;
+  box-shadow: 0 0 0 10px white;
+}
+.fechar{
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  background-color: red;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  color: white;
+  border: 4px solid white;
+}
+.modal h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.modal p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+@keyframes show-modal{
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0px, 0);
+  }
+}
+
+.link-descricao {
+  text-decoration: none;
+  color: white;
+}
+
+.link-descricao:hover {
+  color: lightsteelblue;
 }

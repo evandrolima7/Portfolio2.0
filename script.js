@@ -9,6 +9,8 @@ import animateBtnContato from "./modules/animateModules/animateBtnContato.js";
 import animateCardsHabilidades from "./modules/animateModules/animateCardsHabilidade.js";
 import animateForm from "./modules/animateModules/animateForm.js";
 
+import initModal from "./modules/modalModules/modal.js";
+
 scrollSuaveActive();
 scrollBotaoSobre();
 scrollBotaoContato();
@@ -19,3 +21,5 @@ animateCardsSection();
 animateBtnContato();
 animateCardsHabilidades();
 animateForm();
+
+initModal();
