@@ -636,3 +636,58 @@ label {
 .link-descricao:hover {
   color: lightsteelblue;
 }
+
+[data-menu="button"]{
+  display: none;
+}
+
+@media(max-width: 700px){
+   [data-menu="button"]{
+    display: flex;
+    background-image: linear-gradient( #00D4F2, #0227FF);
+    border: none;
+    text-transform: uppercase;
+    padding: .5rem 1rem;
+    border-radius: 4px;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    align-items: center;
+    position: relative;
+    z-index: 300;
+    margin-right: 20px;
+  }
+  [data-menu="button"]::before{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 12px;
+    background-color: white;
+    box-shadow: 0 4px white, 0 -4px white;
+    margin-right: 4px;
+    transition:  transform .3s;
+  }
+  [data-menu="button"].ativo::before {
+    transform: rotate(90deg);
+  }
+  [data-menu="list"]{
+    display:none ;
+    position: absolute;
+    background: #000000;
+    width: 150px;
+    z-index: 200;
+    padding: 60px 0 20px 0;
+    top:2rem;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .2);
+  }
+  [data-menu="list"].ativo {
+    display: block;
+    animation: show-right .3s forwards;
+  }
+  .dropdown-menu {
+    position: static;
+    border: none;
+  }
+}

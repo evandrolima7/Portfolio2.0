@@ -10,6 +10,8 @@ import animateCardsHabilidades from "./modules/animateModules/animateCardsHabili
 import animateForm from "./modules/animateModules/animateForm.js";
 
 import initModal from "./modules/modalModules/modal.js";
+import initMenuMobile from "./modules/menuMobile/menu-mobile.js";
+
 
 scrollSuaveActive();
 scrollBotaoSobre();
@@ -23,3 +25,4 @@ animateCardsHabilidades();
 animateForm();
 
 initModal();
+initMenuMobile();

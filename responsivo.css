@@ -64,6 +64,17 @@
 
   
   @media(max-width: 800px){
+    .modal{
+        padding: 20px;
+        width: 50%;
+        height: 50%;
+    }
+    .modal h1{
+        font-size:1rem;
+    }
+    .modal p{
+        font-size: .8rem;
+    }
     .projetos-texto{
         font-size: 18px;
     }
@@ -196,29 +207,26 @@
   }
 
   @media(max-width: 640px){
-    .header-menu{
-        gap:20px;
-        padding: 0px;
-        margin: 20px;
-    }
+
     .header-menu a{
-        border: 1px solid white;
-        padding: 8px 16px;
-        border-radius: 4px;
+        font-size: 14px;
+        gap: 10px;
        
+    }
+    .header-menu{
+        top: 0px;
+        width: 120px;
     }
     .header{
         display: flex;
-        flex-direction: column;
-        flex-wrap:wrap-reverse;
-        margin: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
     }
     .header h1{
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 0px;
-        padding: 0px;
+        padding: 20px;
     }
     .header-menu a:hover {
         font-size: 14px;
@@ -240,6 +248,7 @@
     }
     .link-social1{
         width: 30px;
+        margin-top: -55px;
        }
     .link-social2 {
         margin-left: 49px;
@@ -306,23 +315,18 @@
 
   @media(max-width: 550px){
     .header-menu{
-        gap:10px;
-        padding: 0px;
-        margin: 20px;
+        top: 0rem;
     }
     .header-menu a{
-        border: 1px solid white;
         padding: 6px 12px;
         border-radius: 4px;
        font-size: 14px;
     }
     .header{
         display: flex;
-        flex-direction: column;
-        flex-wrap:wrap-reverse;
-        margin: 0px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
     }
     .header h1{
         font-size: 30px;
@@ -344,15 +348,16 @@
         font-size: 40px;
     }
     .link-social1{
+        margin-top: -30px;
         width: 30px;
-        margin-left: 100px;
+        margin-left: 120px;
        }
     .link-social2 {
-        margin-left: 99px;
+        margin-left: 119px;
         width: 30px;
        }
     .cv {
-         margin-left: 100px;
+         margin-left: 120px;
          width: 30px;
          height: 30px;
        }
@@ -394,12 +399,10 @@
 
     @media(max-width: 430px){
         .header-menu{
-            gap:10px;
-            padding: 0px;
-            margin: 5px;
+            top: 0px;
+            width: 120px;
         }
         .header-menu a{
-            border: 1px solid white;
             padding: 5px 10px;
             border-radius: 4px;
            font-size: 12px;
@@ -413,6 +416,7 @@
             top: 130px;
           }
           .link-social1{
+            margin-top: -20px;
             width: 30px;
             margin-left: 70px;
            }
@@ -497,15 +501,13 @@
 
   @media(max-width: 350px){
     .header-menu{
-        gap:5px;
-        padding: 0px;
-        margin: 3px;
+        top: 0px;
+        width: 120px;
     }
     .header-menu a{
-        border: 1px solid white;
         padding: 4px 9px;
         border-radius: 4px;
-       font-size: 10px;
+       font-size: 14px;
     }
     .header{
         gap: 3px;
@@ -516,6 +518,7 @@
         top: 120px;
       }
       .link-social1{
+        margin-top: -20px;
         width: 30px;
         margin-left: 50px;
        }
