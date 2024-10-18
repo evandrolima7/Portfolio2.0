@@ -11,6 +11,7 @@ import animateForm from "./modules/animateModules/animateForm.js";
 
 import initModal from "./modules/modalModules/modal.js";
 import initMenuMobile from "./modules/menuMobile/menu-mobile.js";
+import initAnimaWrite from "./modules/animateModules/write.js";
 
 
 scrollSuaveActive();
@@ -26,3 +27,4 @@ animateForm();
 
 initModal();
 initMenuMobile();
+initAnimaWrite();

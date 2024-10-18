@@ -15,6 +15,10 @@ img {
   max-width: 100%;
   display: block; 
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 
 .header {
   display: flex;
@@ -74,6 +78,20 @@ img {
   margin-top: 10px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
   position: relative;
+}
+#welcomeMessage{
+  display: block;
+}
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: blink-caret 0.7s step-end infinite;
+}
+@keyframes blink-caret {
+  50%{
+    border-color:tranparent;
+  }
 }
 .detalhe {
   display: block;
@@ -218,6 +236,7 @@ img {
 }
 .projeto-img {
   width: 150px;
+  height: 100px;
   margin: auto;
 }
 .card {
