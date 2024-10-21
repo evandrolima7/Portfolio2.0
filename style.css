@@ -236,7 +236,12 @@ a{
 }
 .projeto-img {
   width: 150px;
-  height: 100px;
+  height: 80px;
+  margin: auto;
+}
+.projeto-img-h {
+  width: 150px;
+  height: 150px;
   margin: auto;
 }
 .card {
