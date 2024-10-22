@@ -264,7 +264,12 @@
          font-size: 12px;
        }
     .projeto-img{
-        width: 100px;
+        width: 120px;
+        height: 70px;
+        padding: 0px;
+    }
+    .modal-container{
+        height: 60vh;
     }
     .subtitulo{
         font-size: 5.5rem;
