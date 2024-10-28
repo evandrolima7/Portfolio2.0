@@ -60,6 +60,12 @@
     .projetos-cards{
         gap: 20px;
     }
+    .imgs-social{
+        top: 220px;
+    }
+    .conteudo h1{
+        font-size: 50px;
+    }
   }
 
   
@@ -204,6 +210,10 @@
         height: 10px;
         margin-left: 5px;
     }
+    .techs img{
+        width: 30px;
+        height: 30px;
+    }
   }
 
   @media(max-width: 640px){
@@ -343,7 +353,7 @@
         flex-direction: column;
     }
     .foto{
-        width: 150px;
+        width: 90%;
         margin: 0 auto;
     }
     .conteudo p{
@@ -352,29 +362,31 @@
     .conteudo h1{
         font-size: 40px;
     }
-    .link-social1{
-        margin-top: -30px;
-        width: 30px;
-        margin-left: 120px;
-       }
-    .link-social2 {
-        margin-left: 119px;
-        width: 30px;
-       }
-    .cv {
-         margin-left: 120px;
-         width: 30px;
-         height: 30px;
-       }
-    .cv p {
-       
-         font-size: 12px;
-       }
-       .imgs-social {
+    .imgs-social {
         position: absolute;
         z-index: +1;
-        top: 150px;
+        top: 200px;
       }
+      .link-social1{
+        margin-top: -20px;
+        width: 35px;
+        margin-left: 20px;
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+       }
+    .link-social2 {
+        margin-left: 19px;
+        width: 35px;
+        border-radius: 50%;
+        border: 2px solid rgb(255, 255, 255);
+       }
+    .cv {
+         margin-left: 20px;
+         width: 35px;
+         height: 35px;
+         border-radius: 50%;
+         border: 2px solid rgb(255, 255, 255);
+       }
       .projetos-cards{
         justify-content: center;
       }
@@ -386,6 +398,19 @@
         padding: 8px 16px;
         font-size: 18px;
       }
+      .introducao {
+        background-image: url(./imagens/ceu.jpeg);
+        background-size:cover;
+        animation: moveBackground 60s linear infinite;
+         }
+         @keyframes moveBackground {
+          from{
+              background-position: 0 0;
+          }
+          to{
+              background-position: 100% 0;
+          }
+         }
       /*footer {
         position: fixed;
         bottom: 0;
@@ -395,11 +420,7 @@
         margin-top: 10px;
       }
       */
-      .projetos.js-scroll {
-        opacity: 1;
-        transform: translate3d(0,0,0);
-      }
-     
+      
 
     @media(max-width: 460px){
         .introducao{
@@ -412,20 +433,6 @@
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         border-bottom: 5px solid #ffffff;
         }
-        
-        .introducao {
-          background-image: url(./imagens/bgport.jpeg);
-          background-size:cover;
-          animation: moveBackground 15s linear infinite;
-           }
-           @keyframes moveBackground {
-            from{
-                background-position: 0 0;
-            }
-            to{
-                background-position: 10% 0;
-            }
-           }
          .techs{
             display:flex;
             flex-direction: row;
@@ -463,31 +470,6 @@
         .header{
             gap: 5px;
         }
-        .imgs-social {
-            position: absolute;
-            z-index: +1;
-            top: 200px;
-          }
-          .link-social1{
-            margin-top: -20px;
-            width: 35px;
-            margin-left: 20px;
-            border-radius: 50%;
-            border: 2px solid rgb(255, 255, 255);
-           }
-        .link-social2 {
-            margin-left: 19px;
-            width: 35px;
-            border-radius: 50%;
-            border: 2px solid rgb(255, 255, 255);
-           }
-        .cv {
-             margin-left: 20px;
-             width: 35px;
-             height: 35px;
-             border-radius: 50%;
-             border: 2px solid rgb(255, 255, 255);
-           }
         .projeto-img{
             max-width: 150px;
         }
@@ -580,25 +562,6 @@
     .header{
         gap: 3px;
     }
-    .imgs-social {
-        position: absolute;
-        z-index: +1;
-        top: 120px;
-      }
-      .link-social1{
-        margin-top: -20px;
-        width: 30px;
-        margin-left: 50px;
-       }
-    .link-social2 {
-        margin-left: 49px;
-        width: 30px;
-       }
-    .cv {
-         margin-left: 50px;
-         width: 30px;
-         height: 30px;
-       }
     .projeto-img{
         max-width: 100px;
     }
@@ -622,18 +585,18 @@
         font-size: 20px;
     }
     .conteudo h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
     .conteudo p{
         font-size: 16px;
     }
+    .techs img{
+        width: 25px;
+        height: 25px;
+    }
     .projetos-cards{
         gap: 2px;
     }
-   .conteudo a{
-    font-size: 14px;
-    padding: 5px 10px;
-   }
    *::after{
     display: none;
    }

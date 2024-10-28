@@ -72,12 +72,21 @@ a{
   display: grid;
   grid-template-columns: 6fr 8fr;
   align-items: center;
-  background-image: url(./imagens/16894163-fundo-abstrato-branco-vector-com-listras-fundo-gradiente-branco-abstrato-textura-branca-brilhante-ilustracaoial-vetor.jpg);
-  background-size:co;
   padding: 20px;
   margin-top: 10px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
   position: relative;
+  background-image: url(./imagens/ceu.jpeg);
+  background-size:cover;
+  animation: moveBackground 30s linear infinite;
+   }
+   @keyframes moveBackground {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 0 100%;
+    }
 }
 #welcomeMessage{
   display: block;
@@ -98,9 +107,10 @@ a{
   width: 200px;
   height: 150px;
   position: absolute;
-  top: -10px;
+  top: 60px;
   left: 0px;
-  opacity: 50%;
+  opacity: 80%;
+  z-index: -1;
 }
 .foto {
   max-width: 70%;
@@ -109,20 +119,40 @@ a{
   margin-top: 40px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
   margin-left:80px;
+  
+  border-bottom: 5px solid #ffffff;
 }
 
 .conteudo h1{
   font-size: 64px;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px black;
+  font-family: "Montserrat Subrayada", sans-serif;
 }
 .conteudo p {
   text-align: center;
   font-size: 24px;
-  
+  color: white;
+  text-shadow: 2px 2px 2px black;
 }
 .techs{
-  display: none;
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.techs img{
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+}
+.techs img:hover{
+  width: 50px;
+  height: 50px;
+  transition: 1s;
 }
 .conteudo {
   position: relative;
@@ -149,12 +179,16 @@ a{
    opacity: 100%;
    margin-bottom: 20px;
    cursor: pointer;
+   border-radius: 50%;
+   border: 2px solid rgb(255, 255, 255);
   }
 .link-social2 {
  width: 40px;
  margin-left: 69px;
  opacity: 100%;
  cursor: pointer;
+ border-radius: 50%;
+ border: 2px solid rgb(255, 255, 255);
 }
 .imgs-social {
   position: absolute;
@@ -171,6 +205,8 @@ a{
   color: white;
   opacity: 100%;
   cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
 }
 .cv p {
   text-align: center;
