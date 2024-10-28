@@ -121,6 +121,9 @@ a{
   font-size: 24px;
   
 }
+.techs{
+  display: none;
+}
 .conteudo {
   position: relative;
 }

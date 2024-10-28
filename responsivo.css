@@ -401,16 +401,64 @@
       }
      
 
-
-    @media(max-width: 430px){
-        .header-menu{
-            top: 0px;
-            width: 120px;
+    @media(max-width: 460px){
+        .introducao{
+            height: 90vh;
+            margin: auto;
+        }
+        .foto{
+        width: 90%;
+        margin-top: 40px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        border-bottom: 5px solid #ffffff;
+        }
+        
+        .introducao {
+          background-image: url(./imagens/bgport.jpeg);
+          background-size:cover;
+          animation: moveBackground 15s linear infinite;
+           }
+           @keyframes moveBackground {
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: 10% 0;
+            }
+           }
+         .techs{
+            display:flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+        }
+        .techs img{
+            margin-top: 40px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 2px solid rgb(255, 255, 255);
         }
         .header-menu a{
             padding: 5px 10px;
             border-radius: 4px;
            font-size: 12px;
+        }
+        .conteudo h1{
+            font-size: 2.5rem;
+            
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 2px black;
+            font-family: "Montserrat Subrayada", sans-serif;
+        }
+        .conteudo p{
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+            color: white;
+            text-shadow: 2px 2px 2px black;
         }
         .header{
             gap: 5px;
@@ -418,21 +466,27 @@
         .imgs-social {
             position: absolute;
             z-index: +1;
-            top: 130px;
+            top: 200px;
           }
           .link-social1{
             margin-top: -20px;
-            width: 30px;
-            margin-left: 70px;
+            width: 35px;
+            margin-left: 20px;
+            border-radius: 50%;
+            border: 2px solid rgb(255, 255, 255);
            }
         .link-social2 {
-            margin-left: 69px;
-            width: 30px;
+            margin-left: 19px;
+            width: 35px;
+            border-radius: 50%;
+            border: 2px solid rgb(255, 255, 255);
            }
         .cv {
-             margin-left: 70px;
-             width: 30px;
-             height: 30px;
+             margin-left: 20px;
+             width: 35px;
+             height: 35px;
+             border-radius: 50%;
+             border: 2px solid rgb(255, 255, 255);
            }
         .projeto-img{
             max-width: 150px;
@@ -497,6 +551,15 @@
             width: 20px;
             height: 8px;
         }
+        .conteudo a {
+            padding: 15px 25px;
+            text-align: center;
+            display: block;
+            width: 150px;
+            font-size: 22px;
+            border-radius: 4px;
+            font-weight: 700px;
+          }
 
     }
     .projetos-cards{
