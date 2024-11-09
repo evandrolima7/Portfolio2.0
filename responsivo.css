@@ -491,8 +491,7 @@
            font-size: 12px;
         }
         .conteudo h1{
-            font-size: 2.5rem;
-            
+            font-size: 2.3rem;
             font-weight: 700;
             margin-top: 20px;
             margin-bottom: 20px;
@@ -588,7 +587,7 @@
     }
   }
 
-  @media(max-width: 350px){
+  @media(max-width: 360px){
     .header-menu{
         top: 0px;
         width: 120px;
@@ -621,7 +620,7 @@
         font-size: 3.5rem;
     }
     .header h1{
-        font-size: 20px;
+        font-size: 18px;
     }
     .conteudo h1 {
         font-size: 28px;
