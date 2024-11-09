@@ -1,3 +1,42 @@
+@media(min-width: 1482px) {
+    .link-social1{
+        margin-left:120px;
+        display: none;
+       }
+    .link-social2 {
+        margin-left: 119px;
+        display: none;
+       }
+    .cv {
+         margin-left: 120px;
+         position: fixed;
+         display: none;
+       }
+    .cv p {
+       
+         font-size: 14px;
+       }
+  }
+
+
+
+@media(min-width: 1375px) {
+    .link-social1{
+        margin-left:120px;
+       }
+    .link-social2 {
+        margin-left: 119px;
+       }
+    .cv {
+         margin-left: 120px;
+       }
+    .cv p {
+       
+         font-size: 14px;
+       }
+  }
+
+
 @media(max-width: 1260px) {
     .detalhe{
       display: none;
