@@ -143,6 +143,19 @@ a{
   gap: 20px;
   justify-content: center;
 }
+.techsp{
+  display:flex;
+  flex-direction: row;
+  gap:10px;
+  justify-content: center;
+}
+
+.techsp img{
+  margin-top: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
 .techs img{
   margin-top: 20px;
   width: 40px;
@@ -280,8 +293,8 @@ a{
   margin: auto;
 }
 .projeto-img-h {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin: auto;
 }
 .card {
@@ -289,7 +302,7 @@ a{
   border: 1px solid #e0e0e0;
   border-radius: 5px;
   box-shadow: 1px 1px 1px black;
-}
+} 
 .projeto-titulo {
   text-align: center;
   padding: 10px;
@@ -299,6 +312,7 @@ a{
   text-align: center;
   padding: 10px;
   color: #e0e0e0;
+  width: 100px;
 }
 .subtitulop {
   font-size: 8rem;
@@ -438,13 +452,15 @@ a{
   flex-wrap: wrap;
   align-content: center;
 }
+.projeto-img-h:hover {
+  transform: scale(1.09);
+}
 .projeto-img {
   width: 150px;
   margin: auto;
 }
 .card-habilidades {
-  width:200px ;
-  border: px solid #e0e0e0;
+  width:150px ;
   border-radius: 5px;
   box-shadow: 1px 1px 1px black;
 }
@@ -452,6 +468,8 @@ a{
   text-align: center;
   padding: 10px;
   color: #e0e0e0;
+  margin: 20px;
+  display: block;
 }
 .projeto-descricao {
   text-align: center;
@@ -474,7 +492,7 @@ a{
 }
 .cards-habilidades{
   display: flex;
-  width: 150px;
+  width: 100px;
   flex-wrap: wrap;
   gap: 10px;
   align-content: center;

@@ -534,9 +534,9 @@
             font-size: 3.5rem;
         }
         .habilidades-cards{
-            width: 50px;
+            width: 20px;
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns:1fr 1fr;
             margin: 0 auto;
            }
         .conteudo p::after{
@@ -583,7 +583,13 @@
 
     }
     .projetos-cards{
-        gap: 10px;
+        gap: 1px;
+    }
+  }
+
+  @media(max-width: 415px){
+    .habilidades-cards{
+        grid-template-columns: 1fr;
     }
   }
 
@@ -592,6 +598,7 @@
         top: 0px;
         width: 120px;
     }
+
     .header-menu a{
         padding: 4px 9px;
         border-radius: 4px;
