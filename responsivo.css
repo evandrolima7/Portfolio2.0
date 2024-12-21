@@ -429,9 +429,12 @@
       .projetos-cards{
         justify-content: center;
       }
+      .card{
+        margin: 10px;
+      }
       .habilidades-cards{
         justify-content: center;
-
+        margin: 10px;
       }
       .btn-contato{
         padding: 8px 16px;
@@ -587,9 +590,23 @@
     }
   }
 
-  @media(max-width: 415px){
+  @media(max-width: 405px){
     .habilidades-cards{
-        grid-template-columns: 1fr;
+        grid-template-columns: .5fr .5fr;
+    }
+    .card-habilidades{
+        width: 100px;
+        height: 100px;
+    }
+    .card-habilidades img {
+        width: 50px;
+        height: 50px;
+    }
+    .projeto-titulo{
+        font-size: 14px;
+        text-align: center;
+        padding: 10px;
+        margin: 0px;
     }
   }
 
@@ -615,6 +632,10 @@
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto;
+    }
+    .projeto-descricao{
+        font-size: 14px;
+        width: auto;
     }
     .botao{
         font-size: 12px;
